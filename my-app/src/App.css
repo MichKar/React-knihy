@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(black, grey, black);
+  height: 100vh;
+}
+
+.main-heading {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 15px;
+}
+
+.books {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-around;
+}

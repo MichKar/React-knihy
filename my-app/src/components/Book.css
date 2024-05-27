@@ -1,0 +1,19 @@
+.one-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid black;
+  border-radius: 15px;
+  flex-basis: 400px;
+  padding: 5px 10px;
+  margin: 10px;
+}
+.one-book p {
+  flex-shrink: 2;
+}
+.one-book h2 {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
